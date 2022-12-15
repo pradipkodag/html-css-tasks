@@ -1,0 +1,30 @@
+body{
+    background-color: red;
+}
+#gridcontainer{
+    background-color:aqua;
+    height: 97vh;
+    padding: 1rem;
+    
+    display: grid;
+   /* grid-template-columns: 33% 33% 33%;*/
+   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+.box{
+    background-color:yellowgreen;
+    color: white;
+    font-size: 5rem;
+    
+    
+}
+#box12{
+    grid-column-start:2 ;
+    grid-column-end:5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+#box11{
+    grid-column: 5/6;
+    grid-row: 1/5;
+}

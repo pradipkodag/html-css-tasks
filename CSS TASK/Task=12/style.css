@@ -1,0 +1,271 @@
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+}
+
+/* row*/
+
+#row{
+    background-color: yellow;
+    padding: 1rem;
+    display: flex;
+    
+}
+  .box{
+    background-color: black;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+  /*column*/
+  #column{
+    background-color: rgb(139, 139, 118);
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  
+  
+  .column{
+    background-color: black;
+    
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+  /*rowreverse*/
+  #rowreverse{
+    background-color: rgb(131, 131, 116);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+  }
+  .rowreverse{
+    background-color: black;
+    
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+  /*columnreverse*/
+
+  #columnreverse{
+    background-color: rgb(102, 102, 84);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+
+
+  }
+  .columnreverse{
+    background-color: black;
+    
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+/* justify-content:row*/
+  
+
+
+  #spacearound{
+    background-color: rgb(136, 136, 114);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+  .spacearound{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  #spaceevenly{
+    background-color: rgb(75, 75, 66);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+
+
+  }
+  .spaceevenly{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #spacebetween{
+    background-color: rgb(87, 87, 72);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+
+  }
+  .spacebetween{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+  /* justify-content:column*/
+
+
+  #columnspacearound{
+    background-color: rgb(70, 70, 35);
+    padding: 2rem;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   }
+
+
+  .columnspacearound{
+    background-color: black;
+     margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  #columnspaceevenly{
+    background-color: rgb(100, 100, 84);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+  }
+  .columnspaceevenly{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #columnspacebetween{
+    background-color: yellow;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+  }
+  .columnspacebetween{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+  /*algin-iterm*/
+
+
+  #alginflexstart{
+    background-color: yellow;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+   
+
+
+   }
+
+
+  .alginflexstart{
+    background-color: black;
+     margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  #algincenter{
+    background-color: yellow;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+
+  }
+  .algincenter{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #alginflexend{
+    background-color: rgb(236, 236, 138);
+    padding: 2rem;
+    display: flex;
+   align-items: flex-end;
+
+  }
+  .alginflexend{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+ 
